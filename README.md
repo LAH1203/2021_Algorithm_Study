@@ -1,4 +1,4 @@
-# 2021_Algorithm_Study
+# 2021 Algorithm Study
 *알고리즘 스터디 (2021.11 ~ )*
 
 <br>
@@ -16,8 +16,8 @@
 <br>
 
 🏷️ [배두리]()
-🏷️ [이아현]()
+🏷️ [이아현](https://github.com/LAH1203/2021_Algorithm_Study/tree/main/AhhyunLee)
 
 | 유형 | 폴더 링크 | 문제 | 날짜 |
 |:---:|:---:|:---:|:---:|
-| 그리디(Greedy) |  |  | 2021-11-01 ~ 2021-11-14 |
+| 그리디(Greedy) | [배두리]()<br>[이아현](https://github.com/LAH1203/2021_Algorithm_Study/tree/main/AhhyunLee/Greedy) |  | 2021-11-01 ~ 2021-11-14 |
