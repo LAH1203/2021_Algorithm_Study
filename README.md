@@ -20,4 +20,4 @@
 
 | 유형 | 문제 | 날짜 |
 |:---:|:---:|:---:|
-| 그리디(Greedy) |  | 2021-11-01 ~ 2021-11 |
+| 그리디(Greedy) | 배두리 Pick! [주식](https://www.acmicpc.net/problem/11501)/ [걷기](https://www.acmicpc.net/problem/1459)/ [방 번호](https://www.acmicpc.net/problem/1082)  | 2021-11-01 ~ 2021-11 |
