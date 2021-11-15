@@ -20,4 +20,4 @@
 
 | 유형 | 문제 | 날짜 |
 |:---:|:---:|:---:|
-| 그리디(Greedy) | 배두리 Pick! [주식](https://www.acmicpc.net/problem/11501)/ [걷기](https://www.acmicpc.net/problem/1459)/ [방 번호](https://www.acmicpc.net/problem/1082)  | 2021-11-01 ~ 2021-11 |
+| 그리디(Greedy) | 배두리 Pick! [주식](https://www.acmicpc.net/problem/11501)/ [걷기](https://www.acmicpc.net/problem/1459)/ [방 번호](https://www.acmicpc.net/problem/1082)<br>이아현 Pick!<br>[2+1 세일](https://www.acmicpc.net/problem/11508)<br>[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)<br>[구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | 2021-11-01 ~ 2021-11-21 |
