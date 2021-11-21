@@ -7,7 +7,7 @@
 | 이름 | 언어 |
 |:---:|:---:|
 | [배두리](https://github.com/2ralumin) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| [이아현](https://github.com/LAH1203) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
+| [이아현](https://github.com/LAH1203) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)<br>![Javascript](https://img.shields.io/badge/-Javascript-F7DF1E?style=flat&logo=javascript&logoColor=white) |
 
 <br>
 
@@ -15,7 +15,7 @@
 
 <br>
 
-🏷️ [배두리]()
+🏷️ [배두리](https://github.com/LAH1203/2021_Algorithm_Study/tree/main/DuriBae)
 🏷️ [이아현](https://github.com/LAH1203/2021_Algorithm_Study/tree/main/AhhyunLee)
 
 | 유형 | 문제 | 날짜 |
