@@ -37,6 +37,3 @@ def solution(begin, target, words):
         answer = sorted(resultList)[0]
     
     return answer
-
-print(solution('hit', 'cog', ["hot", "dot", "dog", "lot", "log", "cog"]))
-print(solution('hit', 'cog', ["hot", "dot", "dog", "lot", "log"]))
