@@ -39,15 +39,12 @@ def cnt(f_list, i, j):
 for s in students_list:
  
     friend = []
-    # table_list안에 내가 좋아하는 칭구가 있는지 확인해야함
     for i in range(1, 5):
         if s[i] in dic:
             friend.append(s[i])
  
-    # 좋아하는 친구가 이미 자리를 잡았을때
     if friend:
-        # 모든 자리를 탐색하자
-        # 주변에 친한친구 수, 근처 비어있는곳의 갯수, i좌표, j좌표
+  
         max_cnt = []
         for i in range(n):
             for j in range(n):
@@ -65,9 +62,8 @@ for s in students_list:
         dic[s[0]] = s[1:]
  
  
-    # 친구가 아직 자리를 잡기 전일때
     else:
-        # 비어있는 곳의 갯수, i좌표, j좌표
+
         max_cnt = []
         for i in range(n):
             for j in range(n):
@@ -79,12 +75,11 @@ for s in students_list:
                         max_cnt = [result, i, j]
  
  
-        # 자리를 찾았으면 앉히자
+
         table_list[max_cnt[1]][max_cnt[2]] = s[0]
         dic[s[0]] = s[1:]
  
-# 다 앉힌 후에 점수를 계산하자
-# 0:0 / 1:1 / 2:10 / 3:100 / 4:1000
+
 point = 0
 for i in range(n):
     for j in range(n):
