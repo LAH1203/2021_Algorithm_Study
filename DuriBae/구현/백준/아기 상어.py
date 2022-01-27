@@ -35,51 +35,51 @@ sx,sy = 0,0 #상어좌표
 for i in range(n):
     for j in range(n):
         if array[i][j] == 9:
-            array[i][j] = 0
-            sx, sy = i, j
+            array[i][j] = 0 #좌표 초기화
+            sx, sy = i, j 
             break
 
-size=2
-movecount=0
-eat=0
+size=2 #초기 크기
+movecount=0 #움직인 수
+eat=0 #먹은 물고기 수
 
 while True:
     q = deque()
     q.append((sx,sy,0))
     visited = [[False]*n for _ in range(n)]
-    flag = 1e9
+    flag = 1e9 
     fish = []
     while q:
         x,y,count = q.popleft()
 
-        if count > flag:
+        if count > flag: #물고기를 먹은 이동까지만 센다
             break
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
             if(nx<0 or ny<0 or nx>=n or ny>=n):
                 continue
-            if(array[nx][ny] > size or visited[nx][ny]):
+            if(array[nx][ny] > size or visited[nx][ny]): #물고기가 더 크거나 이미 방문한 경우
                 continue
-            if(array[nx][ny] != 0 and array[nx][ny] < size):
-                fish.append((nx,ny,count+1))
+            if(array[nx][ny] != 0 and array[nx][ny] < size): #물고기가 있고 상어보다 작을 때
+                fish.append((nx,ny,count+1)) #물고기 추가
                 flag = count
             visited[nx][ny]=True
             q.append((nx,ny,count+1))
 
         
     if(len(fish)>0):
-        fish.sort()
+        fish.sort() 
         x,y,move = fish[0][0],fish[0][1],fish[0][2]
-        movecount += move
-        eat += 1
-        array[x][y] = 0
-        if(eat == size):
+        movecount += move #이동한 수 
+        eat += 1 #물고기 먹은 수
+        array[x][y] = 0 #물고기 먹고 빈 칸 만들기
+        if(eat == size): #먹은 수가 크기와 같을 때
             size +=1
             eat = 0
-        sx,sy = x,y
+        sx,sy = x,y #먹고 난 자리를 상어 위치로 설정
     else:
         break
 
 
-print(movecount)
+print(movecount) #이동한 수 출력
