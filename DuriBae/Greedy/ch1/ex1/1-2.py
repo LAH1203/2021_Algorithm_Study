@@ -1,10 +1,5 @@
 import time # 시간 계산
 
-# 큰 수의 법칙
-# 2차 풀이
-# 1차처럼 풀게 되면 M의 크기가 커질 때 시간 초과
-# 연산 횟수가 늘어나기 때문.
-# 가장 큰 수는 m//k * k 만큼 더해지고, 나머지는 두번째로 큰 수가 더해진다.
 
 n,m,k = map(int, input().split())
 num = list(map(int, input().split()))

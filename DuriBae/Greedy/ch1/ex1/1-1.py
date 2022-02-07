@@ -1,8 +1,5 @@
 import time # 시간 계산
 
-# 큰 수의 법칙
-# 1차 풀이
-#M번 더하기, 연속 K번 더하기
 
 n,m,k = map(int, input().split())
 num = list(map(int, input().split()))
